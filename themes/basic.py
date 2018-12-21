@@ -11,6 +11,8 @@ class Color(DefaultColor):
     HOSTNAME_BG = 7
 
     HOME_SPECIAL_DISPLAY = False
+    HOME_BG = 32
+
     PATH_BG = 8  # dark grey
     PATH_FG = 7  # light grey
     CWD_FG = 15  # white
@@ -27,9 +29,9 @@ class Color(DefaultColor):
     JOBS_FG = 14
     JOBS_BG = 8
 
-    CMD_PASSED_BG = 8
-    CMD_PASSED_FG = 15
-    CMD_FAILED_BG = 11
+    CMD_PASSED_BG = 231
+    CMD_PASSED_FG = 0
+    CMD_FAILED_BG = 87
     CMD_FAILED_FG = 0
 
     SVN_CHANGES_BG = REPO_DIRTY_BG

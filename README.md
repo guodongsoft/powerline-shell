@@ -12,6 +12,7 @@ sudo apt-get install powerline
 pip install psutil
 pip install powerline-shell
 ```
+- (You can use the --user option to install for just your user, if you'd like. But you may need to fiddle with your PATH to get this working properly.)
 
 -------------------------------------------------------------------------------
 
